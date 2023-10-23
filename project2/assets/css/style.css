@@ -1,3 +1,18 @@
 body {
-    background: aquamarine;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    background: cornsilk;
+}
+h1 {
+    margin-top: 20px;
+}
+.choice-btn {
+    margin: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+#result {
+    font-size: 24px;
+    margin-top: 20px;
 }
