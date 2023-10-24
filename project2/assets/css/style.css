@@ -2,6 +2,8 @@
 
 body {
     min-height: 100vh;
+    display: flex;
+    flex-direction: column;
     text-align: center;
     font-family: "Raleway", sans-serif;
     color: #445361;
@@ -19,7 +21,13 @@ h1 {
 
 .logo {
     padding: 5px;
+}
 
+/* Main Content */
+
+main {
+    flex: 1 0 auto;
+    margin-top: 45px;
 }
 
 /* Game Section Styling */
@@ -45,7 +53,7 @@ h1 {
 }
 
 .choice:hover {
-    background-color: aqua;
+    background-color: lightgray;
 }
 
 #result {
@@ -56,14 +64,16 @@ h1 {
 /* Footer Styling */
 #footer {
     font-size: 75%;
-    padding: 5%;
+    padding: 20px 0;
     text-align: center;
+    margin-top: 40px;
 }
 
 /* Media Queries */
 
-@media (max-width: 414px) {
+/* Screen sizes with maximum width of 768px (typical for mobile phones */
+@media (max-width: 768px) {
 .logo {
-    size-adjust: 200%;
+    max-width: 80%; /* Adjust the width as needed for smaller screens */
 }
 }
