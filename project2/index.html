@@ -19,24 +19,40 @@
     <meta name="msapplication-TileColor" content="#da532c">
     <meta name="theme-color" content="#ffffff">
     <!-- Fonts -->
-    
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+        integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Raleway%7CRighteous" rel="stylesheet">
     <!-- CSS -->
     <link rel="stylesheet" href="./assets/css/style.css">
 </head>
-
 <body>
     <!-- Header -->
     <header>
         <h1>Elemental Clash</h1>
     </header>
     <main>
-        <section>
-            <h2>Are you ready to challenge the Computer?</h2>
-            <p>This is where the game code will go.</p>
-        </section>
-
-        <script srs="assets/js/script.js"></script>
+    <!-- Game Logo -->    
+        <h2 class="h2">
+            <img class="logo" src="assets/images/rpsimage.png" alt="logo">
+        </h2>
+    <!-- Main Game Area -->    
+        <div class="game">
+            <p>What element will you choose to face the Computer?</p>
+        </div>
+    <!-- Buttons -->    
+        <div class="choices">
+            <button class="choice" id="rock">Rock</button>
+            <button class="choice" id="paper">Paper</button>
+            <button class="choice" id="scissors">Scissors</button>
+        </div>    
+    <!-- Result Section -->    
+        <div class="result">
+            <p id="result-tally">POSSIBLE PLACE FOR SCORE COUNTER</p>
+        </div>
     </main>
+    <!-- JS Link -->
+        <script srs="assets/js/script.js"></script>
+    <!-- Footer -->
     <footer>
         <p>&copy; 2023 Elemental Clash</p>
     </footer>
