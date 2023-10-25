@@ -28,12 +28,15 @@ Elemental Clash is a live webpage, it can be viewed [here]:
 ### De-bugging:
 - Fixed an issue where the buttons were not centralised like the other part of the website, they were always off to the left of the screen. In the CSS file, I had set the display to flex which messed with the position of the buttons. I went into inspect element of the website and played around with removing and adding CSS and found removing the code fixed this issue.
 - Fixed and issue where the logo was off center on small devices. I tested different widths within the CSS but it didnt make it central or smaller. I had to make a media query for smaller devices in order for this change to work and not affect it on larger screens.
+- Fixed an issue with the JavaScript where the class name wasnt matching correctly with the code within the JavaScrip section causing the function to not work.
+- Fixed an issue where 
 
 ## Credits
 
 ### Media
 - Image for the logo is sourced from [Google Images](https://www.google.com/search?q=rock+paper+scissors+free+image&tbm=isch&chips=q:rock+paper+scissors+free+image,online_chips:scissors+clipart:Vsuyf0zAz68%3D&rlz=1C1ASUM_enGB757GB757&hl=en&sa=X&ved=2ahUKEwjfjtn0g5GCAxUtmicCHQJCBSkQ4lYoA3oECAEQOw&biw=1903&bih=914).
 - Favicon image is from [Flaticon](https://www.flaticon.com/free-icon/rock-paper-scissors_6851302).
+- Font was obtained from [Google Fonts](https://fonts.google.com/specimen/Metal+Mania).
 
 ### Content/References
 - Basic html structure and some of the CSS design was inspired by the Code Institute Tutorial for the Love Maths Project.

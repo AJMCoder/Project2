@@ -16,21 +16,25 @@ body {
 
 h1 {
     margin-top: 20px;
-    margin-bottom: 20px;
+    margin-bottom: 2px;
     text-align: center;
     font-family: "Metal Mania";
     font-weight: 800;
     letter-spacing: 2px;
     font-size: 500%;
+    color: black;
 
 }
 
 /* Logo */
 
+h2 {
+    margin: 2px;
+}
+
 .logo {
     padding: 5px;
     margin: 5px;
-    width: 100%;
 }
 
 /* Main Content */
