@@ -29,12 +29,25 @@ h1 {
 
 .logo {
     padding: 5px;
+    margin: 5px;
+    width: 100%;
 }
 
 /* Main Content */
 
 main {
     flex: 1 0 auto;
+}
+
+.game {
+    text-align: center;
+    position: relative;
+    font-family: "Metal Mania";
+    font-style: italic;
+    letter-spacing: 1px;
+    font-size: 19px;
+    padding: 5px;
+    margin: 5px;
 }
 
 /* Game Section Styling */
@@ -63,9 +76,8 @@ main {
     background-color: lightgray;
 }
 
-#result {
+.result {
     font-size: 24px;
-    margin-top: 20px;
 }
 
 /* Footer Styling */
