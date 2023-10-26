@@ -92,6 +92,12 @@ main {
     margin-top: 40px;
 }
 
+/* 404 Error Page Styling */
+.error-page h3 {
+    font-family: "Oswald", sans-serif;
+    
+}
+
 /* Media Queries */
 
 /* Screen sizes with maximum width of 768px (typical for mobile phones */
