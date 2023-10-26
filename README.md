@@ -29,7 +29,7 @@ Elemental Clash is a live webpage, it can be viewed [here]:
 - Fixed an issue where the buttons were not centralised like the other part of the website, they were always off to the left of the screen. In the CSS file, I had set the display to flex which messed with the position of the buttons. I went into inspect element of the website and played around with removing and adding CSS and found removing the code fixed this issue.
 - Fixed and issue where the logo was off center on small devices. I tested different widths within the CSS but it didnt make it central or smaller. I had to make a media query for smaller devices in order for this change to work and not affect it on larger screens.
 - Fixed an issue with the JavaScript where the class name wasnt matching correctly with the code within the JavaScrip section causing the function to not work.
-- Fixed an issue where 
+- Fixed an issue where I was not able to deploy the website due to the index.html, and style.css files being within another file. I separated the files and was then able to deploy the site on Github.
 
 ## Credits
 
