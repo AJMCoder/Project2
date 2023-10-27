@@ -85,6 +85,20 @@ main {
 }
 
 /* Footer Styling */
+#social-networks {
+    text-align: center;
+    padding: 30px 0;
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+}
+
+#social-networks i {
+    font-size: 180%;
+    padding: 5%;
+    color: #3a3a3a;
+}
+
 #footer {
     font-size: 75%;
     padding: 20px 0;

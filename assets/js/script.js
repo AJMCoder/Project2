@@ -44,3 +44,4 @@ function displayResult(playerChoice, computerChoice, winner) {
 }
 
 /* Script to show the updated and running score for Player and Computer */
+let 
