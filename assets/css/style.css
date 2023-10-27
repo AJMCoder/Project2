@@ -87,10 +87,11 @@ main {
 /* Footer Styling */
 #social-networks {
     text-align: center;
-    padding: 30px 0;
     display: flex;
     justify-content: space-evenly;
     list-style-type: none;
+    padding-right: 40px;
+    margin-top: 70px;
 }
 
 #social-networks i {
@@ -101,9 +102,9 @@ main {
 
 #footer {
     font-size: 75%;
-    padding: 20px 0;
+    padding-bottom: 20px 0;
     text-align: center;
-    margin-top: 40px;
+    margin-top: 10px;
 }
 
 /* 404 Error Page Styling */
