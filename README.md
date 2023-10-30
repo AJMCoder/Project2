@@ -17,13 +17,15 @@ Elemental Clash is a live webpage, it can be viewed [here]:
 ![Home page](/assets/images/)
 
 ## Testing
+- I tested the website on multiple browsers: Chrome and Firefox.
+- I confirm that my website is responsive. It's form fits well to different devices and all standard screen sizes, and tested this through the devtools device toolbar.
 
 ### Validator Testing
-- HTML
+- HTML: No errors were returned during this test using the [W3C validator]()
 
-- CSS
+- CSS: 
 
-- JavaScript
+- JavaScript:
 
 ### De-bugging:
 - Fixed an issue where the buttons were not centralised like the other part of the website, they were always off to the left of the screen. In the CSS file, I had set the display to flex which messed with the position of the buttons. I went into inspect element of the website and played around with removing and adding CSS and found removing the code fixed this issue.
