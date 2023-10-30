@@ -1,6 +1,8 @@
-/* */
+/* Global Variables */
 const choices = document.querySelectorAll(".choice");
 const roundResult = document.getElementById("round-result");
+let wins = 0;
+let loses = 0;
 
 choices.forEach(choice => {
     choice.addEventListener("click", playGame);
@@ -11,8 +13,18 @@ function playGame(e) {
     const playerChoice = e.target.id;
     const computerChoice = getComputerChoice();
 
+    /**
+     * Sends player chouce and computer choice
+     * Updates scores for wins and loses
+     * Returns winner string
+     */
     const winner = getWinner(playerChoice, computerChoice);
 
+
+    /**
+     * Updates the user on the winner
+     * Shows player and computer choices
+     */
     displayResult(playerChoice, computerChoice, winner);
 }
 
@@ -25,23 +37,53 @@ function getComputerChoice() {
 
 /* How the system determines which value is greater than to select winning value */
 function getWinner(playerChoice, computerChoice) {
-    if (playerChoice === computerChoice) {
-        return "It's a draw!";
-    } else if (
-        (playerChoice === "rock" && computerChoice === "scissors") ||
-        (playerChoice === "paper" && computerChoice === "rock") ||
-        (playerChoice === "scissors" && computerChoice === "paper")
-    ) {
-        return "You win!";
-    } else {
-        return "Computer wins!";
+    let string = '';
+    switch (playerChoice) {
+        case 'rock':
+            if (computerChoice === 'scissors') {
+                wins++;
+                string = 'You win!';
+            } else if(computerChoice === 'rock') {
+                string = 'Tie!';
+            }
+            else {
+                string = 'Computer wins!';
+                loses++;
+            }
+            break;
+        case 'paper':
+            if (computerChoice === 'rock') {
+                string = 'You win!';
+                wins++;
+            } else if(computerChoice === 'paper') {
+                string = 'Tie!';
+            }
+            else {
+                string = 'Computer wins!';
+                loses++;
+            }
+            break;
+        case 'scissors':
+            if (computerChoice === 'paper') {
+                string = 'You win!';
+                wins++;
+            } else if (computerChoice === 'scissors') {
+                string = 'Tie!';
+            }
+            else {
+                string = 'Computer wins!';
+                loses++;
+            }
+            break;
     }
+    /* Script to show the updated and running score for Player and Computer */
+    document.getElementById("wins").innerHTML = wins;
+    document.getElementById("loses").innerHTML = loses;
+
+    return string;
 }
 
 /* Result text that displays choices from both users and who won */
 function displayResult(playerChoice, computerChoice, winner) {
     roundResult.innerText = `You chose ${playerChoice}. Computer chose ${computerChoice}. ${winner}`;
 }
-
-/* Script to show the updated and running score for Player and Computer */
-let 
