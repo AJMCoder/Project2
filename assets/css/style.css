@@ -35,6 +35,7 @@ h2 {
 .logo {
     padding: 5px;
     margin: 5px;
+    max-width: 300px;
 }
 
 /* Main Content */
