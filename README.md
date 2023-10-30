@@ -6,9 +6,9 @@ Elemental Clash is an online game of chance based on the classic game of Rock, P
 
 Elemental Clash is a live webpage, it can be viewed here. https://ajmcoder.github.io/Project2/
 
-##Features
+## Features
 
-###Existing Features:
+### Existing Features:
 - __Game Title & Logo__
     - The home page displays and outlines the game, full displaying the features in a clear and easy manner.
     - The intention of this section is to display to the user the game and draw them in visual and interest them in trying it out with the eye catching logo.
