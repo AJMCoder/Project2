@@ -14,7 +14,7 @@ function playGame(e) {
     const computerChoice = getComputerChoice();
 
     /**
-     * Sends player chouce and computer choice
+     * Sends player choice and computer choice
      * Updates scores for wins and loses
      * Returns winner string
      */
@@ -34,6 +34,8 @@ function getComputerChoice() {
     const randomIndex = Math.floor(Math.random() * 3);
     return choices[randomIndex];
 }
+
+/* Code adapted from tutorial by Bro Code on YouTube */
 
 /* How the system determines which value is greater than to select winning value */
 function getWinner(playerChoice, computerChoice) {

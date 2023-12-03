@@ -54,6 +54,13 @@ Elemental Clash is a live webpage, it can be viewed here. https://ajmcoder.githu
 - While testing the view on larger screen sizes, mainly PC and laptops, i could see that the logo was again slightly too large and resulted in the choice section and score tracker from being out of view. To fix this i added a max-width to the logo value in CSS.
 During the testing of the site, i made sure that all of the available links works, such as the social media links and the 404 error page link too that takes you back to the main screen.
 
+|Goal| Execution|
+|--------------------------------------------------------------------------------------|-------------------------------------------------------|
+| The main goal is to allow the user to play a game of Rock, Paper, Scissors.| The website is straightforward and easy to operate allowing the user to click and play.|
+| The user should know where to click to active their choice.| The buttons are clearly defined/highlighted and labelled appropriately.|
+| The user should see clear text stating the outcome of the round.| The pop up text is prominant and clearly shows if the user won/lost/drew.|
+| The user should know their score throughout the game.| The score area at the bottom keeps track of the rounds indicating user and computer scores.|
+
 ### Validator Testing
 - HTML: No errors were returned during this test using the ![W3C validator](/assets/images/html-vali.png)
 
@@ -69,6 +76,20 @@ During the testing of the site, i made sure that all of the available links work
 - Fixed an issue with the JavaScript where the class name wasnt matching correctly with the code within the JavaScrip section causing the function to not work.
 - Fixed an issue where I was not able to deploy the website due to the index.html, and style.css files being within another file. I separated the files and was then able to deploy the site on Github.
 - Fixed an issue where the JS for the score system wasn't working and updating the score. To fix, I needed to move the 'return' function to below the command script for the score system so that the 'return' function would no longer kill the commands.
+
+## Deployment 
+The live version of the project is deployed at GitHub pages.
+
+The procedure for deployment followed the "Creating your site" steps provided in [GitHub Docs.](https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-github-pages-site)
+
+1. Log into GitHub.
+2. Locate the GitHub Repository that shall be deployed live.
+3. At the top of the repository, select Settings from the menu items.
+4. Scroll down the Settings page to the ”GitHub Pages" section and click on the ”Check it out here!”
+5. At the ”Source” section choose ”main” as Branch and root as folder and click ”Save”
+6. The website will deploy and the pages refreshes to provide the live link to the project.
+
+This link can be found here: https://ajmcoder.github.io/Project2/
 
 ## Credits
 
