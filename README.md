@@ -91,6 +91,32 @@ The procedure for deployment followed the "Creating your site" steps provided in
 
 This link can be found here: https://ajmcoder.github.io/Project2/
 
+## Cloning & Forking
+
+These are the steps to take to clone a repository:
+
+1. In File menu, click 'Clone Repository'.
+2. Click the tab that corresponds to the location of the repository you want to clone. You can also click URL to manually enter the repository location.
+3. From the list of repositories, click the repository you want to clone.
+4. To select the local directory into which you want to clone the repository, next to the "Local Path" field, click Choose... and navigate to the directory.
+5. At the bottom of the "Clone a Repository" window, click Clone.
+
+The link that can assist with this can be found here: https://docs.github.com/en/desktop/adding-and-cloning-repositories/cloning-and-forking-repositories-from-github-desktop
+
+These are the steps to take when Forking a repository:
+
+1. In the File menu, click Clone Repository.
+2. Click the tab that corresponds to the location of the repository you want to clone. You can also click URL to manually enter the repository location.
+3. From the list of repositories, click the repository you want to clone.
+4. To select the local directory into which you want to clone the repository, next to the "Local Path" field, click Choose... and navigate to the directory.
+5. At the bottom of the "Clone a Repository" window, click Clone.
+6. Read the information in the "How are you planning to use this fork?" window.
+    - If you plan to use this fork for contributing to the original upstream repository, click To contribute to the parent project.
+    - If you plan to use this fork for a project not connected to the upstream, click For my own purposes.
+7. Click Continue.
+
+The link that can assist with this can be found here: https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/fork-a-repo?tool=webui
+
 ## Credits
 
 ### Media

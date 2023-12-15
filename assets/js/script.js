@@ -8,6 +8,8 @@ choices.forEach(choice => {
     choice.addEventListener("click", playGame);
 });
 
+/* Code adapted from tutorial by Bro Code on YouTube */
+
 /* Script to display Player choice and Computer choice */
 function playGame(e) {
     const playerChoice = e.target.id;
@@ -19,7 +21,6 @@ function playGame(e) {
      * Returns winner string
      */
     const winner = getWinner(playerChoice, computerChoice);
-
 
     /**
      * Updates the user on the winner
@@ -34,8 +35,6 @@ function getComputerChoice() {
     const randomIndex = Math.floor(Math.random() * 3);
     return choices[randomIndex];
 }
-
-/* Code adapted from tutorial by Bro Code on YouTube */
 
 /* How the system determines which value is greater than to select winning value */
 function getWinner(playerChoice, computerChoice) {
